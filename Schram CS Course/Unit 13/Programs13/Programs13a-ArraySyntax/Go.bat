@@ -1,0 +1,15 @@
+erase *.j*
+erase *.t*
+erase *.h*
+erase *.r*
+erase *.d*
+erase *.p*
+erase *.g*
+erase *.p*
+erase *.class
+erase *.css
+erase *.cpp
+erase *.c
+erase *.bas
+erase *.bmp
+copy Backup\*.*

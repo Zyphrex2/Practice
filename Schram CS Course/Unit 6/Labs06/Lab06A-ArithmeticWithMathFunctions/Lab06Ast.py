@@ -1,0 +1,87 @@
+# Lab06Ast.py
+# "Arithmetic with math Library Functions"
+# This is the student, starting version of Lab 06A.
+
+
+from math import *
+
+print()
+print("************************************************")
+print("Lab 06A, Arithmetic with math Library Functions")
+print("100 Point Version")
+print("By: DAVID BARDAN")
+print("************************************************")
+print("\n")
+
+q = 8.5
+w = 10
+x = 5
+y = 77.77
+z = 1.21
+
+s1 = sqrt(25)
+s2=sqrt(100)
+s3=sqrt(3)
+s4=sqrt(x)
+s5=sqrt(y)
+s6=sqrt(x+y)
+s7=sqrt(e*pi)
+a1=abs(7)
+a2=abs(-7)
+a3=abs(-x)
+a4=abs(y-z)
+a5=abs(z-y)
+a6=abs(e-pi)
+f1=factorial(7)
+f2=factorial(w)
+f3=factorial(x)
+f4=factorial(w*x)
+m1=max(7,2)
+m2=max(w,x)
+m3=max(e,pi)
+m4=min(7,2)
+m5=min(w,x)
+m6=min(pi,e)
+r1=ceil(8.0001)
+r2=floor(8.9999)
+r3=ceil(y)
+r4=floor(z)
+r5=round(q)
+r6=round(pi)
+r7=round(e)
+
+
+print("s1 =", s1)
+print("s2 =", s2)
+print("s3 =", s3)
+print("s4 =", s4)
+print("s5 =", s5)
+print("s6 =", s6)
+print("s7 =", s7)
+print()
+print("a1 =", a1)
+print("a2 =", a2)
+print("a3 =", a3)
+print("a4 =", a4)
+print("a5 =", a5)
+print("a6 =", a6)
+print()
+print("f1 =", f1)
+print("f2 =", f2)
+print("f3 =", f3)
+print("f4 =", f4)
+print()
+print("m1 =", m1)
+print("m2 =", m2)
+print("m3 =", m3)
+print("m4 =", m4)
+print("m5 =", m5)
+print("m6 =", m6)
+print()
+print("r1 =", r1)
+print("r2 =", r2)
+print("r3 =", r3)
+print("r4 =", r4)
+print("r5 =", r5)
+print("r6 =", r6)
+print("r7 =", r7)
