@@ -3,7 +3,7 @@ from random import *
 
 wordList =  ('sleep', 'longer', 'believe', 'morning', 'check')
 word = wordList[randint(0, 4)] # Choosing a random word from list
-
+guessesSoFar = []
 guess = ''
 for letter in word:
     guess += '_'
